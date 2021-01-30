@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  color:#737373;
+}
+.material-icons {
+  color:#737373;
+}
+
+.user-img {
+  width: 32px;
+  border-radius: 50%;
+}
+
+
+.nav-bar {
+  float: right;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin: 15px;
+  font-size: 14px;
+}
+
+.nav-bar i {
+ cursor: pointer;
+}
+
+.nav-bar img {
+  cursor: pointer;
+  margin-right: 5px;
+ }
+.nav-bar i:hover {
+  color: black;
+ }
+
+.nav-bar a {
+  text-decoration: none;
+  color: #2f373d;
+}
+
+.nav-bar a:hover {
+  text-decoration-line: underline;
+}
+
+.main-section {
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+
+.google {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#input-wrapper {
+  width: 80%;
+  max-width: 500px;
+  display: inline-block;
+  height: 100px;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  margin-top: 20px; 
+}
+
+.search-box {
+  width: 100%;
+  color: #222;
+  border: 1px solid #dfe1e5;
+  font-size: 13px;
+  padding: 14px;
+  border-radius: 24px;
+  outline: none;
+  box-shadow:0 1px 6px 0 rgba(32, 33, 36, 0.28) ;
+  border-color:0 1px 6px 0 rgba(223,225,229, 0) ; 
+  
+}
+
+.microphone {
+  float: right;
+  width: 32px;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.btns {
+  width: 100%;
+  max-width: 500px;
+  height: 100px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -40px;
+}
+
+.btn {
+  transform: translateX(100%);
+  margin: 50px 0  0 0 ;
+  background-color: #f2f2f2;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
+  padding: 0 16px;
+  background-image: linear-gradient(top, #f5f5f5,#f1f1f1 );
+  border: 1px solid transparent;
+  box-shadow: 0 1px 1px rgba(0, 0,0, 0);
+  color: #222;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
